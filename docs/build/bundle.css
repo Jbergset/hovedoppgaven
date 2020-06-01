@@ -1,3 +1,8 @@
-main.svelte-1tky8bj{text-align:center;padding:1em;max-width:240px;margin:0 auto}h1.svelte-1tky8bj{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-1tky8bj{max-width:none}}
+@media(min-width: 640px){}
+h1.svelte-hcikzs.svelte-hcikzs{color:orangered;font-family:'kalam'}.konteiner.svelte-hcikzs.svelte-hcikzs{display:grid;grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));grid-gap:20px}.konteiner.svelte-hcikzs>.card img.svelte-hcikzs{max-width:100%}
+.konteiner.svelte-1xqss4j{display:grid;grid-template-columns:repeat(auto-fill, minmax(305px, 1fr));grid-gap:15px}.card.svelte-1xqss4j{border-style:dashed;margin:5px}
+#textHilsen.svelte-1har3ee{height:220px;width:800px;border-radius:5px}#textTittel.svelte-1har3ee{height:50px;width:350px;border-radius:5px;font-size:25px}
+button.svelte-1dlrql6{background:none;border:none;border-bottom:2px solid white;border-radius:0;margin:0;color:#ccc}.selected.svelte-1dlrql6{border-bottom:2px solid teal;color:#333}
+.tab-list.svelte-u93mug{border-bottom:1px solid teal}
 
 /*# sourceMappingURL=bundle.css.map */

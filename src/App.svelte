@@ -1,11 +1,31 @@
 <script>
-	export let name;
+	import { Tabs, TabList, TabPanel, Tab } from './components/tabs/tabs.js';
+	import News from "./components/News.svelte";
+	import SeHilsninger from "./components/SeHilsninger.svelte";
+	import SendHilsen from "./components/SendHilsen.svelte";
+
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<Tabs>
+	<TabList>
+		<Tab>News!</Tab>
+		<Tab>Hilsninger</Tab>
+		<Tab>Send din hilsen!</Tab>
+	</TabList>
+
+	<TabPanel>
+		<News />
+	</TabPanel>
+
+	<TabPanel>
+		<SeHilsninger />
+	</TabPanel>
+
+	<TabPanel>
+		<h2>Third panel</h2>
+		<SendHilsen />
+	</TabPanel>
+</Tabs>
 
 <style>
 	main {
