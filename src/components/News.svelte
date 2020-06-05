@@ -2,19 +2,29 @@
     import { onMount } from "svelte";
 
     const API_KEY = "6fb8a769aee04be38d2c3e7c14e4d77c";
-    const URL = `https://newsapi.org/v2/top-headlines?country=us&q=corona&sortBy=publishedAt&apiKey=${API_KEY}`;
+    const URL = `http://newsapi.org/v2/everything?q=coronavirus&from=2020-05-20&to=2020-06-20&sortBy=popularity&apiKey=${API_KEY}`;
         let articles = [];
 
-    onMount(async function() {
-    const response = await fetch(URL);
-    const json = await response.json();
-    articles = json["articles"];
+
+    onMount(async () => {
+        try {
+        const response = await fetch(URL);
+        const json = await response.json();
+        articles = json["articles"];
+        console.log(articles)
+        } catch(err) {
+            console.log(err)
+        }
     });
+
+    const filterCountry = id => {
+        list = listen.filter()
+    }
+
     
 </script>
 
-
-<h1>De siste nyhetene fra USA angående Corona Viruset!! </h1>
+<h1>De største nyhetene angående Corona viruset fra ulike nyhets kilder !</h1>
 
 <div class="konteiner">
         {#each articles as article}
@@ -31,13 +41,14 @@
 
 <style>
 h1 {
-    color: orangered;
-    font-family: 'kalam';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
 }
 .konteiner {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
 	
 }
 .konteiner > .card img {

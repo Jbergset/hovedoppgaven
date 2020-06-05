@@ -1,8 +1,9 @@
-@media(min-width: 640px){}
-h1.svelte-hcikzs.svelte-hcikzs{color:orangered;font-family:'kalam'}.konteiner.svelte-hcikzs.svelte-hcikzs{display:grid;grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));grid-gap:20px}.konteiner.svelte-hcikzs>.card img.svelte-hcikzs{max-width:100%}
-.konteiner.svelte-1xqss4j{display:grid;grid-template-columns:repeat(auto-fill, minmax(305px, 1fr));grid-gap:15px}.card.svelte-1xqss4j{border-style:dashed;margin:5px}
-#textHilsen.svelte-1har3ee{height:220px;width:800px;border-radius:5px}#textTittel.svelte-1har3ee{height:50px;width:350px;border-radius:5px;font-size:25px}
-button.svelte-1dlrql6{background:none;border:none;border-bottom:2px solid white;border-radius:0;margin:0;color:#ccc}.selected.svelte-1dlrql6{border-bottom:2px solid teal;color:#333}
-.tab-list.svelte-u93mug{border-bottom:1px solid teal}
+main.svelte-1h6otfa{text-align:center;padding:1em;max-width:240px;margin:0 auto}@media(min-width: 640px){main.svelte-1h6otfa{max-width:none}}
+h1.svelte-zlrvbh.svelte-zlrvbh{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:22px}.konteiner.svelte-zlrvbh.svelte-zlrvbh{display:grid;grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));grid-auto-rows:auto;grid-gap:1rem}.konteiner.svelte-zlrvbh>.card img.svelte-zlrvbh{max-width:100%}
+h1.svelte-1thyfmo{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:22px}.konteiner.svelte-1thyfmo{display:grid;grid-template-columns:repeat(auto-fill, minmax(305px, 1fr));grid-gap:15px}.card.svelte-1thyfmo{border-style:dashed;margin:5px}
+h1.svelte-7vrmzn{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:22px}.konteiner.svelte-7vrmzn{display:grid;grid-template-columns:minmax(305px, 1fr)}#textHilsen.svelte-7vrmzn{height:220px;width:60%;border-radius:5px}#textTittel.svelte-7vrmzn{height:50px;width:350px;border-radius:5px;font-size:18px}
+h1.svelte-m3jq5z{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:22px}.konteiner.svelte-m3jq5z{display:grid;grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));grid-auto-rows:auto;grid-gap:1rem}.card.svelte-m3jq5z{border:2px solid #e7e7e7;border-radius:4px;padding:.5rem}
+button.svelte-1gqx2rh{background:none;border:none;border-bottom:2px solid white;border-radius:0;margin:0;color:#ccc}.selected.svelte-1gqx2rh{border-bottom:2px solid orangered;color:#333}
+.tab-list.svelte-12age0v{border-bottom:1px solid orangered}
 
 /*# sourceMappingURL=bundle.css.map */
